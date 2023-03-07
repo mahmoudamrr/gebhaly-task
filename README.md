@@ -26,37 +26,22 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+gebhally task this project contain two modules user and address book 
+
 ## Installation
 
+ this project uses docker and docker compose.
+ 
+  - download docker desktop in you machine
+  - change .env.example to .env
+  
 ```bash
-$ yarn install
+$ git clone
+$ docker compose up --build
 ```
 
-## Running the app
+- visit localhost:3000/api to see swagger UI api documentation
 
-```bash
-# development
-$ yarn run start
-
-# watch mode
-$ yarn run start:dev
-
-# production mode
-$ yarn run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
-```
 
 ## Support
 
