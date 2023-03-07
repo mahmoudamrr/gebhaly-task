@@ -40,6 +40,8 @@ $ git clone
 $ docker compose up
 ```
 
+- visit localhost:3000/api to see swagger UI api documentation
+
 
 ## Support
 
