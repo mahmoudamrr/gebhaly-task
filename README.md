@@ -26,7 +26,7 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-gebhally task this project contaian two modulesuser and address book 
+gebhally task this project contain two modules user and address book 
 
 ## Installation
 
