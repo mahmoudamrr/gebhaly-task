@@ -1,9 +1,11 @@
+import { Address } from './address.interface';
+
 export interface User {
-    id?: string;
-    firstName: string;
-    lastName: string;
-    email: string;
-    password: string;
-    createdAt?: Date;
-    updatedAt?: Date;
-  }
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  addressBooks: Address[];
+  createdAt?: Date;
+  updatedAt?: Date;
+}

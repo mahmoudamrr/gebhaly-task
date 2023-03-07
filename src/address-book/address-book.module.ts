@@ -12,7 +12,6 @@ import { User, UserSchema } from '../user/user.model';
       { name: 'AddressBook', schema: AddressBookSchema },
       { name: User.name, schema: UserSchema },
     ]),
-    // UserModule,
   ],
   providers: [AddressBookService],
   controllers: [AddressBookController],
