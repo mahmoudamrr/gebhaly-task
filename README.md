@@ -37,7 +37,7 @@ gebhally task this project contain two modules user and address book
   
 ```bash
 $ git clone
-$ docker compose up
+$ docker compose up --build
 ```
 
 - visit localhost:3000/api to see swagger UI api documentation
